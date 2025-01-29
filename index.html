@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versículo do Dia</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="spotlight">Versículo do Dia</h1>
+        <p id="versiculo"></p>
+        <p id="referencia"></p>
+        
+        <div class="button-container">
+            <a href="#" onclick="compartilhar()" class="button button-white">Compartilhar</a>
+            <button onclick="avaliar()" class="button button-blue">Avaliar ( <span id="likeCount">0</span> )</button>
+            </div>
+        </div>
+    <script>
+        async function carregarVersiculo() {
+            try {
+                const dataAtual = new Date().toISOString().split('T')[0]; // Obtém a data de hoje no formato YYYY-MM-DD
+                const cache = localStorage.getItem("versiculoDoDia");
+
+                if (cache) {
+                    const versiculoSalvo = JSON.parse(cache);
+                    if (versiculoSalvo.data === dataAtual) {
+                        exibirVersiculo(versiculoSalvo.versiculo, versiculoSalvo.referencia);
+                        return;
+                    }
+                }
+
+                // Fazendo a requisição para carregar o arquivo JSON
+                const resposta = await fetch("versiculos.json");
+                const dados = await resposta.json();
+
+                const diaDoAno = new Date().getDate(); // Pega o dia do mês
+                const index = diaDoAno % dados.length; // Garantir que o índice seja dentro do intervalo do array
+                const versiculo = dados[index];
+
+                localStorage.setItem("versiculoDoDia", JSON.stringify({
+                    data: dataAtual,
+                    versiculo: versiculo.versiculo,
+                    referencia: versiculo.referencia
+                }));
+
+                exibirVersiculo(versiculo.versiculo, versiculo.referencia);
+            } catch (error) {
+                document.getElementById("versiculo").textContent = "Erro ao carregar o versículo.";
+            }
+        }
+
+        function exibirVersiculo(versiculo, referencia) {
+            document.getElementById("versiculo").textContent = `"${versiculo}"`;
+            document.getElementById("referencia").textContent = `- ${referencia}`;
+        }
+
+        function avaliar() {
+            let likes = localStorage.getItem("likes") || 0;
+            likes = parseInt(likes) + 1;
+            localStorage.setItem("likes", likes);
+            document.getElementById("likeCount").textContent = likes;
+        }
+
+        function compartilhar() {
+            const url = window.location.href;
+            if (navigator.share) {
+                navigator.share({
+                    title: "Versículo do Dia",
+                    text: "Confira o versículo do dia!",
+                    url: url
+                }).catch(console.error);
+            } else {
+                navigator.clipboard.writeText(url);
+                alert("Link copiado para a área de transferência!");
+            }
+        }
+
+        function limparCache() {
+            // Limpa o cache do localStorage
+            localStorage.removeItem("versiculoDoDia");
+            localStorage.removeItem("likes");
+
+            // Exibe uma mensagem e recarrega a página
+            alert("Cache limpo! A página será recarregada.");
+            location.reload(); // Recarrega a página
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("likeCount").textContent = localStorage.getItem("likes") || 0;
+            carregarVersiculo();
+        });
+    </script>
+
+</body>
+</html>
