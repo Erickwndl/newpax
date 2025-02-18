@@ -10,10 +10,264 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #000;
-    color: #e0e0e0;
+    color: #ffffff;
     overflow: hidden;
     
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #eb7979;
+    overflow: hidden;
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 23s linear infinite;
+}
+
+
+
+
+.background li:nth-child(0) {
+    left: 64%;
+    width: 111px;
+    height: 111px;
+    bottom: -111px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 72%;
+    width: 226px;
+    height: 226px;
+    bottom: -226px;
+    animation-delay: 3s;
+}
+.background li:nth-child(2) {
+    left: 83%;
+    width: 89px;
+    height: 89px;
+    bottom: -89px;
+    animation-delay: 8s;
+}
+.background li:nth-child(3) {
+    left: 73%;
+    width: 224px;
+    height: 224px;
+    bottom: -224px;
+    animation-delay: 6s;
+}
+.background li:nth-child(4) {
+    left: 39%;
+    width: 215px;
+    height: 215px;
+    bottom: -215px;
+    animation-delay: 8s;
+}
+.background li:nth-child(5) {
+    left: 56%;
+    width: 150px;
+    height: 150px;
+    bottom: -150px;
+    animation-delay: 21s;
+}
+.background li:nth-child(6) {
+    left: 72%;
+    width: 70px;
+    height: 70px;
+    bottom: -70px;
+    animation-delay: 21s;
+}
+.background li:nth-child(7) {
+    left: 33%;
+    width: 185px;
+    height: 185px;
+    bottom: -185px;
+    animation-delay: 31s;
+}
+.background li:nth-child(8) {
+    left: 70%;
+    width: 127px;
+    height: 127px;
+    bottom: -127px;
+    animation-delay: 33s;
+}
+.background li:nth-child(9) {
+    left: 61%;
+    width: 64px;
+    height: 64px;
+    bottom: -64px;
+    animation-delay: 16s;
+}
+.background li:nth-child(10) {
+    left: 22%;
+    width: 276px;
+    height: 276px;
+    bottom: -276px;
+    animation-delay: 1s;
+}
+.background li:nth-child(11) {
+    left: 53%;
+    width: 146px;
+    height: 146px;
+    bottom: -146px;
+    animation-delay: 2s;
+}
+.background li:nth-child(12) {
+    left: 56%;
+    width: 240px;
+    height: 240px;
+    bottom: -240px;
+    animation-delay: 15s;
+}
+.background li:nth-child(13) {
+    left: 81%;
+    width: 183px;
+    height: 183px;
+    bottom: -183px;
+    animation-delay: 28s;
+}
+.background li:nth-child(14) {
+    left: 38%;
+    width: 170px;
+    height: 170px;
+    bottom: -170px;
+    animation-delay: 52s;
+}
+.background li:nth-child(15) {
+    left: 1%;
+    width: 279px;
+    height: 279px;
+    bottom: -279px;
+    animation-delay: 47s;
+}
+.background li:nth-child(16) {
+    left: 87%;
+    width: 133px;
+    height: 133px;
+    bottom: -133px;
+    animation-delay: 51s;
+}
+.background li:nth-child(17) {
+    left: 74%;
+    width: 116px;
+    height: 116px;
+    bottom: -116px;
+    animation-delay: 54s;
+}
+.background li:nth-child(18) {
+    left: 86%;
+    width: 121px;
+    height: 121px;
+    bottom: -121px;
+    animation-delay: 46s;
+}
+.background li:nth-child(19) {
+    left: 2%;
+    width: 96px;
+    height: 96px;
+    bottom: -96px;
+    animation-delay: 38s;
+}
+.background li:nth-child(20) {
+    left: 68%;
+    width: 82px;
+    height: 82px;
+    bottom: -82px;
+    animation-delay: 93s;
+}
+.background li:nth-child(21) {
+    left: 77%;
+    width: 240px;
+    height: 240px;
+    bottom: -240px;
+    animation-delay: 93s;
+}
+.background li:nth-child(22) {
+    left: 22%;
+    width: 241px;
+    height: 241px;
+    bottom: -241px;
+    animation-delay: 4s;
+}
+.background li:nth-child(23) {
+    left: 21%;
+    width: 123px;
+    height: 123px;
+    bottom: -123px;
+    animation-delay: 62s;
+}
+.background li:nth-child(24) {
+    left: 52%;
+    width: 104px;
+    height: 104px;
+    bottom: -104px;
+    animation-delay: 71s;
+}
+.background li:nth-child(25) {
+    left: 52%;
+    width: 189px;
+    height: 189px;
+    bottom: -189px;
+    animation-delay: 10s;
+}
+.background li:nth-child(26) {
+    left: 74%;
+    width: 104px;
+    height: 104px;
+    bottom: -104px;
+    animation-delay: 41s;
+}
+.background li:nth-child(27) {
+    left: 53%;
+    width: 254px;
+    height: 254px;
+    bottom: -254px;
+    animation-delay: 78s;
+}
+.background li:nth-child(28) {
+    left: 64%;
+    width: 174px;
+    height: 174px;
+    bottom: -174px;
+    animation-delay: 68s;
+}
+.background li:nth-child(29) {
+    left: 62%;
+    width: 65px;
+    height: 65px;
+    bottom: -65px;
+    animation-delay: 137s;
+}
+.background li:nth-child(30) {
+    left: 60%;
+    width: 158px;
+    height: 158px;
+    bottom: -158px;
+    animation-delay: 117s;
 }
 
 .container {
@@ -22,26 +276,36 @@ body {
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 0.8s ease-out forwards;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    padding: 20px;
 }
 
 .spotlight {
     font-size: 2.8em;
     font-weight: bold;
     color: transparent;
-    background: linear-gradient(90deg, transparent, #f37c7c, transparent);
+    background: linear-gradient(90deg, transparent, #e23434, transparent);
     background-size: 200% 200%;
     background-clip: text;
     -webkit-background-clip: text;
     animation: spotlightMove 2s ease-in-out infinite alternate;
     opacity: 0;
     transform: translateY(20px);
-    animation: fadeInUp 0.8s ease-out forwards, spotlightMove 3s ease-in-out infinite alternate;
+    animation: fadeInUp 0.1s ease-out forwards, spotlightMove 3s ease-in-out infinite alternate;
+}
+
+p{
+    font-size: 1.4em;
+
 }
 
 .versiculo .referencia {
-    font-size: 1.3em;
-    line-height: 1.6;
-    color: #bfbfbf;
+    color: #ffffff;
     margin-top: 20px;
     opacity: 0;
     transform: translateY(20px);
@@ -85,7 +349,7 @@ body {
 }
 
 .button-blue {
-    background-color: rgb(241, 73, 73);
+    background-color: #e23434;
     color: #ffffff;
 }
 
