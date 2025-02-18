@@ -1,150 +1,122 @@
 [
     {
+        "versiculo": "Bem-aventurado o homem que não anda segundo o conselho dos ímpios, nem se detém no caminho dos pecadores, nem se assenta na roda dos escarnecedores.",
+        "referencia": "Salmos 1:1"
+    },
+    {
+        "versiculo": "Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento.",
+        "referencia": "Provérbios 3:5"
+    },
+    {
+        "versiculo": "Mas os que esperam no Senhor renovarão as suas forças, subirão com asas como águias, correrão e não se cansarão, andarão e não se fatigarão.",
+        "referencia": "Isaías 40:31"
+    },
+    {
+        "versiculo": "Porque eu bem sei os pensamentos que tenho a vosso respeito, diz o Senhor; pensamentos de paz, e não de mal, para vos dar o fim que esperais.",
+        "referencia": "Jeremias 29:11"
+    },
+    {
         "versiculo": "Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.",
         "referencia": "João 3:16"
     },
     {
-        "versiculo": "O Senhor é o meu pastor; nada me faltará.",
+        "versiculo": "No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus.",
+        "referencia": "João 1:1"
+    },
+    {
+        "versiculo": "Deixo-vos a paz, a minha paz vos dou; não vo-la dou como o mundo a dá. Não se turbe o vosso coração, nem se atemorize.",
+        "referencia": "João 14:27"
+    },
+    {
+        "versiculo": "O Senhor é o meu pastor, nada me faltará.",
         "referencia": "Salmos 23:1"
+    },
+    {
+        "versiculo": "O Senhor pelejará por vós, e vos calareis.",
+        "referencia": "Êxodo 14:14"
+    },
+    {
+        "versiculo": "Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará.",
+        "referencia": "Salmos 91:1"
+    },
+    {
+        "versiculo": "E não vos conformeis com este mundo, mas transformai-vos pela renovação da vossa mente, para que experimenteis qual seja a boa, agradável e perfeita vontade de Deus.",
+        "referencia": "Romanos 12:2"
     },
     {
         "versiculo": "Posso todas as coisas naquele que me fortalece.",
         "referencia": "Filipenses 4:13"
     },
     {
-        "versiculo": "O Senhor é minha luz e minha salvação; a quem temerei? O Senhor é a força da minha vida; de quem me recearei?",
-        "referencia": "Salmos 27:1"
-    },
-    {
-        "versiculo": "E nós sabemos que todas as coisas contribuem juntamente para o bem daqueles que amam a Deus.",
-        "referencia": "Romanos 8:28"
-    },
-    {
-        "versiculo": "E conhecereis a verdade, e a verdade vos libertará.",
-        "referencia": "João 8:32"
-    },
-    {
-        "versiculo": "O Senhor é bom para todos, e as suas misericórdias são sobre todas as suas obras.",
-        "referencia": "Salmos 145:9"
-    },
-    {
-        "versiculo": "Tudo posso naquele que me fortalece.",
-        "referencia": "Filipenses 4:13"
-    },
-    {
-        "versiculo": "Mas o Espírito Santo vos ensinará todas as coisas, e vos fará lembrar de tudo o que vos tenho dito.",
-        "referencia": "João 14:26"
-    },
-    {
-        "versiculo": "Não andeis ansiosos por coisa alguma; antes, em tudo, sejam conhecidas diante de Deus as vossas petições, pela oração e súplica, com ação de graças.",
-        "referencia": "Filipenses 4:6"
-    },
-    {
-        "versiculo": "O Senhor é perto de todos os que o invocam, de todos os que o invocam em verdade.",
-        "referencia": "Salmos 145:18"
-    },
-    {
-        "versiculo": "Porque o Filho do homem veio buscar e salvar o que estava perdido.",
-        "referencia": "Lucas 19:10"
-    },
-    {
-        "versiculo": "Eu sou o bom pastor; o bom pastor dá a sua vida pelas ovelhas.",
-        "referencia": "João 10:11"
-    },
-    {
-        "versiculo": "Alegrai-vos sempre no Senhor; outra vez digo: alegrai-vos!",
-        "referencia": "Filipenses 4:4"
-    },
-    {
-        "versiculo": "O Senhor é meu refúgio e minha fortaleza, o meu Deus, em quem confio.",
-        "referencia": "Salmos 91:2"
-    },
-    {
-        "versiculo": "E Jesus, olhando para eles, disse: Para os homens é impossível, mas para Deus tudo é possível.",
-        "referencia": "Mateus 19:26"
-    },
-    {
-        "versiculo": "O Senhor é justo em todos os seus caminhos e benigno em todas as suas obras.",
-        "referencia": "Salmos 145:17"
-    },
-    {
-        "versiculo": "Mas o fruto do Espírito é amor, alegria, paz, longanimidade, benignidade, bondade, fidelidade, mansidão, temperança; contra estas coisas não há lei.",
-        "referencia": "Gálatas 5:22-23"
-    },
-    {
-        "versiculo": "Ora, a fé é o firme fundamento das coisas que se esperam, e a prova das coisas que se não vêem.",
-        "referencia": "Hebreus 11:1"
-    },
-    {
-        "versiculo": "Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.",
-        "referencia": "Mateus 11:28"
-    },
-    {
-        "versiculo": "A paz vos deixo, a minha paz vos dou; não vo-la dou como o mundo a dá.",
-        "referencia": "João 14:27"
-    },
-    {
-        "versiculo": "O Senhor é minha luz e a minha salvação, de quem terei medo? O Senhor é o refúgio da minha vida, a quem temerei?",
-        "referencia": "Salmos 27:1"
-    },
-    {
-        "versiculo": "Tudo quanto pedirdes em oração, crendo, o recebereis.",
-        "referencia": "Mateus 21:22"
-    },
-    {
-        "versiculo": "Bendito seja o Senhor, que dia a dia leva o nosso fardo; o Deus que é a nossa salvação.",
-        "referencia": "Salmos 68:19"
-    },
-    {
-        "versiculo": "Por isso vos digo: Não andeis ansiosos pela vossa vida, quanto ao que haveis de comer ou beber, nem pelo vosso corpo, quanto ao que haveis de vestir.",
-        "referencia": "Mateus 6:25"
-    },
-    {
-        "versiculo": "O Senhor é fiel em todas as suas palavras e santo em todas as suas obras.",
-        "referencia": "Salmos 145:13"
-    },
-    {
-        "versiculo": "Em tudo, dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco.",
+        "versiculo": "Em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco.",
         "referencia": "1 Tessalonicenses 5:18"
     },
     {
-        "versiculo": "Porque a palavra de Deus é viva e eficaz, e mais cortante do que qualquer espada de dois gumes.",
+        "versiculo": "Alegrai-vos sempre no Senhor; outra vez digo: Alegrai-vos.",
+        "referencia": "Filipenses 4:4"
+    },
+    {
+        "versiculo": "O anjo do Senhor acampa-se ao redor dos que o temem, e os livra.",
+        "referencia": "Salmos 34:7"
+    },
+    {
+        "versiculo": "Perto está o Senhor dos que têm o coração quebrantado, e salva os contritos de espírito.",
+        "referencia": "Salmos 34:18"
+    },
+    {
+        "versiculo": "Grandes coisas fez o Senhor por nós, pelas quais estamos alegres.",
+        "referencia": "Salmos 126:3"
+    },
+    {
+        "versiculo": "O coração do homem planeja o seu caminho, mas o Senhor lhe dirige os passos.",
+        "referencia": "Provérbios 16:9"
+    },
+    {
+        "versiculo": "Deus é o que me cinge de força e aperfeiçoa o meu caminho.",
+        "referencia": "Salmos 18:32"
+    },
+    {
+        "versiculo": "Porque a palavra de Deus é viva e eficaz, e mais penetrante do que qualquer espada de dois gumes, e penetra até à divisão da alma e do espírito.",
         "referencia": "Hebreus 4:12"
+    },
+    {
+        "versiculo": "Sujeitai-vos, pois, a Deus; resisti ao diabo, e ele fugirá de vós.",
+        "referencia": "Tiago 4:7"
+    },
+    {
+        "versiculo": "E sabemos que todas as coisas contribuem juntamente para o bem daqueles que amam a Deus.",
+        "referencia": "Romanos 8:28"
+    },
+    {
+        "versiculo": "Mas buscai primeiro o Reino de Deus, e a sua justiça, e todas estas coisas vos serão acrescentadas.",
+        "referencia": "Mateus 6:33"
+    },
+    {
+        "versiculo": "Aquele que começou a boa obra em vós há de completá-la até ao dia de Cristo Jesus.",
+        "referencia": "Filipenses 1:6"
     },
     {
         "versiculo": "O Senhor te guardará de todo mal; ele guardará a tua alma.",
         "referencia": "Salmos 121:7"
     },
     {
-        "versiculo": "Eu sou o caminho, e a verdade, e a vida; ninguém vem ao Pai, senão por mim.",
-        "referencia": "João 14:6"
+        "versiculo": "Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.",
+        "referencia": "Mateus 11:28"
     },
     {
-        "versiculo": "Bem-aventurados os que têm fome e sede de justiça, porque eles serão fartos.",
-        "referencia": "Mateus 5:6"
+        "versiculo": "E o Deus de toda graça, que em Cristo Jesus vos chamou à sua eterna glória, depois de haverdes padecido um pouco, ele mesmo vos aperfeiçoará, confirmará, fortificará e fortalecerá.",
+        "referencia": "1 Pedro 5:10"
     },
     {
-        "versiculo": "Eu sei os pensamentos que tenho a vosso respeito, diz o Senhor, pensamentos de paz e não de mal, para vos dar o fim que esperais.",
-        "referencia": "Jeremias 29:11"
+        "versiculo": "Não to mandei eu? Esforça-te, e tem bom ânimo; não temas, nem te espantes, porque o Senhor teu Deus é contigo por onde quer que andares.",
+        "referencia": "Josué 1:9"
     },
     {
-        "versiculo": "Não temas, porque eu sou contigo; não te assombres, porque eu sou o teu Deus.",
+        "versiculo": "Não temas, porque eu sou contigo; não te assombres, porque eu sou o teu Deus; eu te fortaleço, e te ajudo, e te sustento com a destra da minha justiça.",
         "referencia": "Isaías 41:10"
     },
     {
-        "versiculo": "Eis que estou convosco todos os dias, até a consumação do século.",
-        "referencia": "Mateus 28:20"
-    },
-    {
-        "versiculo": "Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia.",
-        "referencia": "Salmos 46:1"
-    },
-    {
-        "versiculo": "Porque os meus pensamentos não são os vossos pensamentos, nem os vossos caminhos os meus caminhos, diz o Senhor.",
-        "referencia": "Isaías 55:8"
-    },
-    {
-        "versiculo": "Em Cristo, todos são feitos vivos.",
-        "referencia": "1 Coríntios 15:22"
+        "versiculo": "Aquietai-vos e sabei que eu sou Deus.",
+        "referencia": "Salmos 46:10"
     }
 ]
