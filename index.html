@@ -67,7 +67,7 @@
         <div class="button-container">
             <a href="#" onclick="compartilhar()" class="button button-white">Compartilhar</a>
             <button onclick="avaliar()" class="button button-blue">Avaliar ( <span id="likeCount">0</span> )</button>
-            <button onclick="limparcache()">Limpar cache</button>
+            <button onclick="limparCache()">Limpar cache</button>
             </div>
         </div>
         <script>
@@ -139,7 +139,7 @@
                 alert("Link copiado para a área de transferência!");
             }
         }
-				        function limparCache() {
+	function limparCache() {
             // Limpa o cache do localStorage
             localStorage.removeItem("versiculoDoDia");
             localStorage.removeItem("likes");
