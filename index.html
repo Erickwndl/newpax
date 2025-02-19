@@ -67,14 +67,23 @@
         <div class="button-container">
             <a href="#" onclick="compartilhar()" class="button button-white">Compartilhar</a>
             <button onclick="avaliar()" class="button button-blue">Avaliar ( <span id="likeCount">0</span> )</button>
-<!--             <button onclick="limparCache()">lipar chache</button> -->
-            
+            <button onclick="limparcache()">Limpar cache</button>
             </div>
         </div>
-    <script>
+        <script>
+        function verificarCacheDiario() {
+            const ultimaData = localStorage.getItem("ultimaAtualizacao");
+            const dataAtual = new Date().toISOString().split('T')[0];
+
+            if (ultimaData !== dataAtual) {
+                localStorage.removeItem("versiculoDoDia");
+                localStorage.setItem("ultimaAtualizacao", dataAtual);
+            }
+        }
+
         async function carregarVersiculo() {
             try {
-                const dataAtual = new Date().toISOString().split('T')[0]; // Obtém a data de hoje no formato YYYY-MM-DD
+                const dataAtual = new Date().toISOString().split('T')[0];
                 const cache = localStorage.getItem("versiculoDoDia");
 
                 if (cache) {
@@ -85,12 +94,12 @@
                     }
                 }
 
-                // Fazendo a requisição para carregar o arquivo JSON
-                const resposta = await fetch("versiculos.json");
+                // Força atualização do JSON evitando cache do navegador
+                const resposta = await fetch(`versiculos.json?v=${new Date().getTime()}`);
                 const dados = await resposta.json();
 
                 const diaDoAno = new Date().getDate(); // Pega o dia do mês
-                const index = diaDoAno % dados.length; // Garantir que o índice seja dentro do intervalo do array
+                const index = diaDoAno % dados.length; // Garante que o índice esteja dentro do array
                 const versiculo = dados[index];
 
                 localStorage.setItem("versiculoDoDia", JSON.stringify({
@@ -130,8 +139,7 @@
                 alert("Link copiado para a área de transferência!");
             }
         }
-
-        function limparCache() {
+				        function limparCache() {
             // Limpa o cache do localStorage
             localStorage.removeItem("versiculoDoDia");
             localStorage.removeItem("likes");
@@ -142,6 +150,7 @@
         }
 
         document.addEventListener("DOMContentLoaded", () => {
+            verificarCacheDiario();
             document.getElementById("likeCount").textContent = localStorage.getItem("likes") || 0;
             carregarVersiculo();
         });
