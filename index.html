@@ -139,14 +139,14 @@
                 alert("Link copiado para a área de transferência!");
             }
         }
-	function limparCache() {
-            // Limpa o cache do localStorage
+		
+        function limparCache() {
             localStorage.removeItem("versiculoDoDia");
+            localStorage.removeItem("ultimaAtualizacao");
             localStorage.removeItem("likes");
 
-            // Exibe uma mensagem e recarrega a página
             alert("Cache limpo! A página será recarregada.");
-            location.reload(); // Recarrega a página
+            location.reload(); // Recarrega a página para aplicar as mudanças
         }
 
         document.addEventListener("DOMContentLoaded", () => {
