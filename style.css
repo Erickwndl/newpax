@@ -282,7 +282,7 @@ body {
     backdrop-filter: blur(7.4px);
     -webkit-backdrop-filter: blur(7.4px);
     border: 1px solid rgba(255, 255, 255, 0.14);
-    padding: 20px;
+    padding: 10px;
 }
 
 .spotlight {
@@ -300,7 +300,7 @@ body {
 }
 
 p{
-    font-size: 1.4em;
+    font-size: 1em;
 
 }
 
